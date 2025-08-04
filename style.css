@@ -1,0 +1,14 @@
+.container {
+  width: 960px;
+}
+
+.parent {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.cell {
+  border: 1px solid black;
+  height: 50px;
+  flex-basis: 50px;
+}
